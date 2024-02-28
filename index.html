@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="p1.css">
+    <script src="https://kit.fontawesome.com/1a0d3766ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header"> 
+    <div class="container">
+        <nav>
+            
+            <ul id="sidemenu">
+                <i class="fa-regular fa-circle-xmark hidebars" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hometown">More About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                
+
+            </ul>
+            <i class="fa-solid fa-bars hidebars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="intro-text">
+          <p>Hi , My name is <span>Ritamvaraa Sinha</span></p> 
+          <h1>Welcome to my<br>personal portfolio</h1> 
+          </div>
+          <div class="intro-pic">
+            <img src="./first.jpg" class="formal-pic"/>
+          </div>
+        </div>
+    </div>
+    
+
+    
+   </div> 
+
+   <!-----------about------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly driven second year Computer Science student with growing knowledge in programming languages like python,java,c and c++ with strong problem solving skills and a commitment to excellence ready to contribute my passion and skills to the tech world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                        
+                    </div>
+                    
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>College</span><br>Btech in Computer Science Engineering with spl. <br>in DATA SCIENCE from VIT UNIVERSITY ,<br>VELLORE-632014</li>
+                            <li><span>High School</span><br>Passed Senior Secondary Examination (CBSE) with 94.34% from DELHI PUBLIC SCHOOL, <br>B.S.CITY;JHARKHAND-827004</li>
+                            <li><span>School</span><br>Completed secondary School Examination-2020 with 96.98% from DELHI PUBLIC SCHOOL,<br>B.S.CITY;JHARKHAND-827004 </li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Creating portfolio and calculator related websites</li>
+                            <li><span>DSA and OOPS</span><br>Basic knowledge related to dsa and oops</li>
+                            <li><span>Basic knowledge about data science</span><br>Basic functionalities of Ds</li>
+                            <li><span>Programming languages </span><br>Strong hold over programming languages such as c,c++,java and python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>Languages known</span><br>Hindi,English,Bengali,Bhojpuri and a little bit of German</li>
+                            <li><span>Writing and Journaling</span><br>Enthusiast about jotting down experiences</li>
+                            <li><span>Reading books and novels</span><br>Read almost 15 books related to various genres </li>
+                            <li><span>Travelling</span><br>Exploring new places is on top of the bucket list since childhood</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="displayContents">
+                        <ul>
+                            <li><span>College</span><br>Btech in Computer Science Engineering with spl. <br>in DATA SCIENCE from VIT UNIVERSITY ,<br>VELLORE-632014</li>
+                            <li><span>High School</span><br>Passed Senior Secondary Examination (CBSE) with 94.34% from DELHI PUBLIC SCHOOL, <br>B.S.CITY;JHARKHAND-827004</li>
+                            <li><span>School</span><br>Completed secondary School Examination-2020 with 96.98% from DELHI PUBLIC SCHOOL,<br>B.S.CITY;JHARKHAND-827004 </li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------hometown-------->
+<div id="hometown">
+    <div class="container">
+        <h1 class="sub-titles">More About Me</h1>
+        <div class="hometown-list">
+            <div class="birth-place">
+                <h2>Birth place</h2>
+                <p>Born in BOKARO STEEL CITY,JHARKAHAND(INDIA),I bring a multicultural perspective to my work.My diverse upbringing has instilled in me adaptability,open-mindedness and a global outlook which I leverage to navigate various proffesional environments effectively </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="culture">
+                <h2>Cultural Background</h2>
+                <p>Hailing from a multicultural upbringing in Bokaro Steel City , I embrace diversity from various parts of the country like Bihar,West Bengal,Jharkhand and Odisha.My graduation years in Tamil Nadu has also helped me explore the sourthern culture of our nation too.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="community">
+                <h2>Community Involvement</h2>
+                <p>Actively involved in technical and cultural organisations growing up,fostering leadership and teamwork skills.Also efficient in time management and take full responsibility of any work assigned.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!----portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./w1.jpg">
+                <div class="layer">
+                    <h3>PERSONAL PORTFOLIO WEBSITE</h3>
+                    <p>Created a fully responsive personal portfolio website using html,css and javascript.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./w2.jpg">
+                <div class="layer">
+                    <h3>BMI CALCULATOR</h3>
+                    <p>Developed a BMI calculator web application using c,c++ with accurate BMI calculation algorithm for optimal user experience.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./w3.jpg">
+                <div class="layer">
+                    <h3>MANUAL CALCULATOR</h3>
+                    <p>Proficient in developing and creating algorithms for manual calclators using python demonstrating strong mathematical aptitude and attention to detail. </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./w4.jpg">
+                <div class="layer">
+                    <h3>SNAKES AND LADDERS GAME</h3>
+                    <p>Created a snakes and ladders game using c++ language involving oops concept to establish a modular and maintanable codebase. </p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!---contacts----->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>sinharitamvaraa2020@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9801641979</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+
+                <a href="./my cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="Text" name="Name" placeholder="Your Name" required>
+                    <input type="Email"name="Email" placeholder="Your Email Id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="mssg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Ritamvaraa. Made with <i class="fa-solid fa-heart"></i> by Ritamvaraa Sinha </p>
+    </div>
+</div>
+<script>
+
+    // var tablinks=document.getElementsByClassName("tab-links");
+    // var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    
+    function opentab(tabname){
+        // for(tablink of tablinks){
+        //     tablink.classlist.remove("active-link");
+
+        // }
+        // for(tabcontent of tabcontents){
+        //     tabcontent.classlist.remove("active-tab");
+        // }
+        // event.currentTarget.classlist.add("active-link");
+        // document.getElementById(tabname).classList.add("active-tab");
+        const contents=document.getElementById(tabname).innerHTML;
+        console.log("hiiiii");
+        document.getElementById(tabname);
+        document.getElementById("displayContents").innerHTML = contents;
+        console.log(contents);
+    }
+
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynjKtotk-O1O9fNsYY9caoPk69aiLOjLPhksI4v-RGwBolhmV6OGRGvkgVpIQjnzCNpw/exec';
+    const form = document.forms['submit-to-google-sheet']
+    const mssg=document.getElementById("mssg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            mssg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                mssg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
